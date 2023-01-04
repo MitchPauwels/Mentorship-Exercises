@@ -41,19 +41,3 @@ Steps required to achieve the result
 
 
 */
-
-
-
-const container = document.querySelector("#container");
-
-for (let i = 1; i <= 151; i++) {
- // const pokemon = document.createElement("section");
- // const label = document.createElement("span");
- // label.innerText = `#${i}`;
-  const newImg = document.createElement("img");
-  newImg.src = `./pokemon/${[i]}.png`;
- // pokemon.appendChild(newImg);
- // pokemon.appendChild(label);
- // pokemon.classList.add("pokemon");
-  container.appendChild(newImg);
-}
